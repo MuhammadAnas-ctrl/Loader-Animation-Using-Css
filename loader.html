@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader. Made by me</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gilroy';
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        padding: 50px;
+        align-items: center;
+    }
+    .loader{
+    margin-left: 443px;
+        height: 250px;
+        width: 250px;
+        border: 10px solid #ddd;
+        border-top-color:#333;
+        border-radius: 50%;
+        animation: rotate 1s infinite;
+    }
+    @keyframes rotate{
+        100%{
+            rotate: 360deg;
+        }
+    }
+</style>
+</head>
+<body>
+   <div class="loader"></div> 
+</body>
+</html>
